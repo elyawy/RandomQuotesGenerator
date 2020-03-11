@@ -1,0 +1,95 @@
+body, html {
+  background-color: #A1A1A1;
+  color: #F5F5F5;
+  height: 100vh;
+  min-width: 450px;
+  font-family: Ubuntu, monospace; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; }
+
+#main-area {
+  margin: 0 20px;
+  margin-top: 15vh;
+  padding: 30px;
+  display: block;
+  background-color: #4B5B58;
+  color: #F5F5F5;
+  border-radius: 14px;
+  box-shadow: inset -3px 3px 10px -5px black; }
+
+#text {
+  text-align: center;
+  position: relative;
+  display: block;
+  text-shadow: 2px 2px 10px black; }
+
+#author {
+  text-align: right;
+  font-size: 24px;
+  text-shadow: 2px 2px 10px black; }
+
+#tweet-button {
+  margin-top: 50px;
+  text-align: right; }
+
+#tweet-quote {
+  padding: 5px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none; }
+
+i {
+  margin-right: 5px;
+  color: white; }
+
+#submit-area {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 240px;
+  height: 50px; }
+
+#new-quote {
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none; }
+
+.btn-tweet {
+  background-color: #30E3CA;
+  border-color: #30E3CA;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px -5px black;
+  transition: all 0.1s ease-in-out; }
+  .btn-tweet:hover {
+    background-color: #5de9d6;
+    border-color: #5de9d6; }
+  .btn-tweet:active {
+    background-color: #1bc5ad;
+    border-color: #1bc5ad;
+    box-shadow: inset -3px 3px 10px -5px black; }
+
+.btn-primary {
+  background-color: #2F89FC;
+  border-color: #2F89FC;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px -5px black;
+  transition: all 0.1s ease-in-out; }
+  .btn-primary:hover {
+    background-color: #61a6fd;
+    border-color: #61a6fd; }
+  .btn-primary:active {
+    background-color: #046df4;
+    border-color: #046df4;
+    box-shadow: inset -3px 3px 10px -5px black; }
+
+#background-area {
+  align-self: flex-end;
+  min-width: 450px; }

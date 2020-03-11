@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Quote Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body onload=getQuote()>
+        <div id="quote-box">
+            <div id="main-area">
+                    <div >
+                        <h1 class="text-center " id="text">
+                        </h1>
+                    </div>
+                    <div>
+                        <h2 id="author">
+                        </h2>
+                    </div>
+                    <div id="tweet-button">
+                        <a id="tweet-quote" href="" target="_blank"  class="btn-tweet">
+                            <i class="fa fa-lg fa-twitter"></i>Tweet!
+                        </a>
+                    </div>
+            </div>
+            <div id="submit-area">
+                <a id="new-quote" href="#" class="btn-primary" onclick="getQuote()" >
+                    Generate Quote!
+                </a>
+            </div>
+        </div>
+        <div id="background-area">
+            <img id="socrates" src="./assets/socrates.svg" alt="socrates">
+        </div>
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    </body>
+</html>
